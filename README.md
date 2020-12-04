@@ -61,7 +61,9 @@ BI256 b = new BI256("123456789");
 BI256 c = a.divide(b);
 ```
 **P.S.: The result is without precision. You need to use the modulo to know the rest of the division**
+
 **Ex: 5/2 = 2**
+
 5. Modulo
 ```java
 BI256 a = new BI256("5");
